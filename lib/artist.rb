@@ -2,7 +2,7 @@ require 'pry'
 
 class Artist
 
-  extend Memorable::class_methods
+  extend Memorable::ClassMethods
   attr_accessor :name
   attr_reader :songs
 
